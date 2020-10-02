@@ -3,10 +3,10 @@ $(document).ready(function(){
 })
 
 function getWeather(){
-  var url =  "https://api.openweathermap.org / data / 2.5 /weather?q=Temple&APPID="+apikey;
+  var url ="https://api.openweathermap.org/data/2.5/weather?q=Temple&APPID="+apiKey;
   
   $.ajax(url,{success: function(data){
     console.log(data);
-    
+
   }})
 }
