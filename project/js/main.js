@@ -12,7 +12,7 @@ function getWeather(searchQuery){
   }})
 }
 
-function searchWealther(){
+function searchWeather(){
   var searchQuery = $(".search").val();
   getWeather(searchQuery);
 }
