@@ -22,10 +22,10 @@ button {
 }
 
 .page-header {
-  background-color: whitesmoke;
+  background-color: black;
   padding-top: 40px;
   padding-bottom: 80px;
-  color: #161515;
+  color: whitesmoke;
 }
 
 #image img {
